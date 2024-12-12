@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Dancing+Script:wght@400..700&family=Playwrite+HR+Lijeva+Guides&family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: transparent;
+}
+nav .nav-item {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+  list-style: none;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  color: #e15858;
+  font-size: 30px;
+}
+
+.separator {
+  width: 200px;
+  height: 200px;
+}
+
+header {
+  background-image: url("../images/Holiday-Background-for-Microsoft-Teams.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+header .head-container {
+  text-align: center;
+  padding-top: 10%;
+}
+header .head-container .Merry-container {
+  display: inline-flex;
+}
+header .head-container .Merry-container .xmas-tree {
+  width: 80px;
+  height: 80px;
+}
+header .head-container h1 {
+  font-family: "Anton SC", sans-serif;
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+header .head-container p {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
+.midle {
+  margin: 100px;
+}
+.midle .row {
+  margin-bottom: 80px;
+}
+.midle .row h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel .carousel-item {
+  height: 600px;
+  width: 500px;
+}
+.carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.buttons button {
+  padding: 5px 20px 5px 20px;
+  margin: 5px;
+  color: 72727;
+  font-size: 13px;
+  border: 1.5px solid 72727;
+}
+.buttons #red-btn {
+  background: #e15858;
+  color: #fff;
+  border: none;
+}
+
+.border-top {
+  height: 50px;
+  width: 100%;
+  background: red;
+  border-radius: 50% 20%/10% 40%;
+}
+
+.discount {
+  margin: 100px;
+}
+.discount .time-container {
+  display: flex;
+}
+.discount .time-container .box {
+  font-weight: bold;
+  padding-top: 8px;
+  text-align: center;
+  background: #afafaf;
+  color: #fff;
+  height: 70px;
+  width: 80px;
+  margin: 15px;
+}/*# sourceMappingURL=main.css.map */
