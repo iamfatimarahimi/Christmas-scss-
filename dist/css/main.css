@@ -16,8 +16,8 @@ nav .nav-item {
 }
 
 .title {
+  color: #df575a;
   font-family: "Dancing Script", cursive;
-  color: #e15858;
   font-size: 30px;
 }
 
@@ -27,8 +27,10 @@ nav .nav-item {
 }
 
 header {
-  background-image: url("../images/Holiday-Background-for-Microsoft-Teams.png");
+  background-image: url("../images/15-AI-Generated-Holiday-Background-for-Microsoft-Teams.png");
   background-repeat: no-repeat;
+  width: 100vh;
+  position: relative;
   background-size: cover;
   color: #fff;
   height: 100vh;
@@ -86,31 +88,202 @@ header .head-container p {
   border: 1.5px solid 72727;
 }
 .buttons #red-btn {
-  background: #e15858;
+  background: #df575a;
   color: #fff;
   border: none;
 }
 
-.border-top {
-  height: 50px;
-  width: 100%;
-  background: red;
-  border-radius: 50% 20%/10% 40%;
-}
-
 .discount {
-  margin: 100px;
+  position: relative;
+  height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../images/space-bg.jpg);
 }
-.discount .time-container {
+.discount .row {
+  padding-top: 100px;
+  margin: 100px;
+  color: #fff;
+}
+.discount .row .time-container {
   display: flex;
 }
-.discount .time-container .box {
+.discount .row .time-container .box {
   font-weight: bold;
   padding-top: 8px;
   text-align: center;
-  background: #afafaf;
+  background: rgba(0, 0, 0, 0.5725490196);
   color: #fff;
   height: 70px;
   width: 80px;
   margin: 15px;
+}
+.discount .row .buttons {
+  margin-left: 50px;
+}
+.discount .row .buttons #shop-btn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.custom-shape-divider-top-1734599603 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.custom-shape-divider-top-1734599603 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 106px;
+  left: 0;
+}
+.custom-shape-divider-top-1734599603 .shape-fill {
+  fill: #fff;
+}
+
+.custom-shape-divider-bottom-1734613866 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1734613866 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+.custom-shape-divider-bottom-1734613866 .shape-fill {
+  fill: #fff;
+}
+
+.magic {
+  margin-top: 100px;
+}
+.magic .text-right {
+  padding-right: 45px;
+  text-align: right;
+  position: relative;
+}
+.magic .Border {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.magic .line-dot {
+  height: 60vh;
+  border-left: 2.5px dashed #df575a;
+}
+.magic .Border::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #df575a;
+}
+.magic .Border::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #df575a;
+}
+.magic .link {
+  color: #333;
+  border-bottom: 1px solid #df575a;
+  margin-top: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+.magic .xmas-bg {
+  display: block;
+  line-height: 200px;
+  text-align: center;
+  width: 80%;
+  margin: 15px auto 0 auto;
+  height: 20vh;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/xmas-bg.jpg");
+}
+
+.stories {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-item img {
+  width: 500px;
+  height: 350px;
+}
+.card-item p {
+  color: #333;
+  width: 60%;
+}
+
+.footer {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  height: 60vh;
+  background-image: url("../images/xmas-footer-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer h1,
+.footer p {
+  color: #fff;
+  padding-top: 50px;
+}
+
+.social-liks li {
+  display: inline-block;
+  font-size: 25px;
+  list-style: none;
+  padding: 8px;
+}
+.social-liks i {
+  padding: 10px;
+  border-radius: 50%;
+  background: #fff;
+}
+.social-liks i:hover {
+  cursor: pointer;
+  background: #df575a;
+  transition: background 300ms ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  header ul {
+    display: none;
+  }
+  header h1 {
+    font-size: 2px;
+  }
 }/*# sourceMappingURL=main.css.map */
