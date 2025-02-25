@@ -9,9 +9,9 @@ $dancing-font: "Dancing Script", cursive;
   padding: 0;
   box-sizing: border-box;
 }
-// body {
-//   overflow-x: hidden;
-// }
+body {
+  overflow-x: hidden;
+}
 nav {
   background: transparent;
   .nav-item {
@@ -259,6 +259,9 @@ header {
     width: 60%;
   }
 }
+.container {
+  text-align: center;
+}
 .footer {
   position: relative;
   margin-top: 100px;
@@ -349,13 +352,23 @@ header {
 //     }
 //   }
 // }
-@media only screen and (max-width: 500px) {
-  .col-lg-6 .text-image {
-    width: 100px !important;
-    height: 100px !important;
+.goods {
+  .card {
+    width: 18rem;
   }
+}
+@media only screen and (max-width: 500px) {
   .border-dotted img {
     display: block;
     width: 100%;
+  }
+  .slider .carousel {
+    width: 300px;
+  }
+  .goods {
+    .card {
+      width: 15rem;
+      margin: 10px 0;
+    }
   }
 }
