@@ -303,4 +303,17 @@ header .head-container p {
     width: 15rem;
     margin: 10px 0;
   }
+  .magic .row {
+    text-align: center;
+  }
+  .magic .row h2 {
+    font-size: 15px;
+  }
+  .magic .row p {
+    font-size: 10px;
+    width: 100px;
+  }
+  .magic .row img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
