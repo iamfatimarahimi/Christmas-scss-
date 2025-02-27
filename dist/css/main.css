@@ -242,7 +242,7 @@ header .head-container p {
 }
 
 .card-item img {
-  width: 500px;
+  width: 400px;
   height: 350px;
 }
 .card-item p {
@@ -324,6 +324,12 @@ header .head-container p {
   }
   .card-item p {
     width: auto;
+  }
+  .discount .row h1 {
+    font-size: 15px;
+  }
+  .discount .row .time-container {
+    display: none;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 1050px) {

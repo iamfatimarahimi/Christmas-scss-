@@ -251,7 +251,7 @@ header {
 }
 .card-item {
   img {
-    width: 500px;
+    width: 400px;
     height: 350px;
   }
   p {
@@ -384,12 +384,6 @@ header {
       width: 100%;
     }
   }
-  // .stories .row {
-  //   img {
-  //     width: 100%;
-  //     height: 100px;
-  //   }
-  // }
   .card-item {
     img {
       width: 100%;
@@ -400,6 +394,14 @@ header {
     }
     p {
       width: auto;
+    }
+  }
+  .discount .row {
+    h1 {
+      font-size: 15px;
+    }
+    .time-container {
+      display: none;
     }
   }
 }
